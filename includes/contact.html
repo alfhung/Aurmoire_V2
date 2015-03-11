@@ -1,0 +1,79 @@
+
+<div class="contact-box">
+    <div class="container">
+        
+        <h2>Contact Us</h2>
+        <div class="col-xs-7">
+            <p>
+                <strong>Email</strong>: 
+                <a href="mailto:info@aurmoire.com">info@aurmoire.com</a>
+                <br>
+                <strong>Phone</strong>: 917-830-5643
+            </p>
+            
+            <p>
+                We are here for you.
+                Just ask and we will service you in any way we can.
+                <br>
+                You can call, email or use the form for all inquiries.
+                <br>
+                Feel free to contact us for any of these areas:
+            </p>
+            <p>
+                <strong>Membership Invitations</strong>
+                <br>
+                Check our <a href="club.php">club</a> page
+                for information about the club. 
+                Message us to get your invitation and
+                for more information about our services.
+            </p>
+            <p>
+                <strong>Career Opportunities</strong>
+                <br>
+                We are actively looking for talented teammates to join us.
+                We have <a href="careers.php">open roles</a> now. 
+                Message us if you are interesting in joining the team.
+            </p>
+            <p>
+                <strong>Feature Your Brand</strong>
+                <br>
+                If you want to showcase your brand and products with us,
+                we would like to hear your story.
+            </p>
+            <p>
+                <strong>Feedback and Comments</strong>
+                <br>
+                We welcome any feedback good or bad. 
+                Tell us about what do you think about our services
+                and your experience.
+            </p>
+            <p>
+                <strong>General Inquiries</strong>
+                <br>
+                Let us know of any other business or customer related inquiries you have.
+            </p>
+        </div>
+        
+        <div class="col-xs-5">
+            
+            <!-- form -->
+            <form method="post" action="contact.php">
+                
+                <h4>Contact Form</h4>
+            <!-- php form manipulation code -->
+            <?php
+                include('pro_contact.php');
+            ?>
+
+                <input type="text" name="name" id="name" value="<?php echo $_POST['name']; ?>" placeholder="Your Name" maxlength="25" autofocus="autofocus"/>
+                <input type="email" name="email" id="email" value="<?php echo $_POST['email']; ?>" placeholder="Email Address" maxlength="50" />
+                <textarea type="text" name="message" id="message" Placeholder="Subject and Message" maxlength="5000"><?php echo $_POST['message']; ?></textarea>
+                <center>
+                    <button type="submit" name="submit" class="btn btn-warning">Send</button><!-- Submit -->
+                </center>
+            </form>
+            
+        </div>
+        
+    </div>
+</div>

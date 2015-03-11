@@ -1,0 +1,25 @@
+
+.about-box {
+    padding: 30px 20px;
+}
+
+.about-box p {
+    font-size: 16px;
+}
+
+.col-xs-4 {
+    padding: 60px 40px 0;
+}
+
+.col-xs-4 ul {
+    background-color: rgb(197,179,88);
+    color: black;
+    padding: 20px 0px 20px 20px;
+    list-style: none;
+}
+
+.col-xs-4 ul a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}

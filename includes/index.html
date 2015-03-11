@@ -1,0 +1,37 @@
+<!-- Content for Main page -->
+
+    <!--div class="container"-->
+    
+    <div class="picture">
+        
+        <!--div class="col-xs-6"-->
+            
+            <div class="box1 pull-left">
+                
+                <!-- Tagline -->
+                <h3 class="text-center">Dress in Style in just 5 Minutes</h3>
+                
+                <h4 class="text-center">Personal Styling & Club Experience</h4>
+                
+                <div class="centering">
+                    
+                    <?php
+                        include('signup.php');
+                    ?>
+                    
+                    <form method="post" action="index.php">
+                        <input type="email" name="email" id="email" value="<?php echo $_POST['email']; ?>" placeholder="Email Address" maxlength="50" autofocus="autofocus"/>
+                        <button type="submit" name="submit" class="btn btn-warning" >
+                            Join the Guest List
+                        </button><!-- Submit -->
+                    </form>
+                </div>
+                
+            </div>
+        
+    </div>
+    
+    <!--/div-->
+
+
+

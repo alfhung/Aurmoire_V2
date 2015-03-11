@@ -1,0 +1,31 @@
+
+.brands-box {
+    background-color: rgb(229,228,226);
+    height: 600px !important;/*get white space if smaller, need to correct later */
+}
+
+.brands-box > .container {
+    background-color: white;
+    width: 700px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 20px 40px;
+}
+
+.brands-box > .container > p {
+    font-size: 16px;
+}
+
+.brands-box hr {
+    border: 0;
+    border-top: 1px solid black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.brands-box a {
+    text-decoration: none;
+}

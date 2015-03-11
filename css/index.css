@@ -1,0 +1,71 @@
+
+/* styles for the main body section */
+
+/* styles for Version 2 */
+
+.picture {
+    width: 100%;
+    height: 600px !important;
+    background: url('../images/v2_final_home_pic.png');
+}
+
+.picture .box1 {
+    margin-top: 125px;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 400px;
+    background-color: rgb(229,228,226);
+    background-color: rgba(229,228,226,0.95);
+    color: black;
+    display: block;
+}
+
+.picture h3 {
+    margin-top: 10px;
+}
+
+.picture h4 {
+    margin-top: 10px;
+}
+
+.picture .centering {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.picture .box1 form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.picture .box1 form input,
+.picture .box1 form select {
+    width: 225px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.picture .box1 form input:focus,
+.picture .box1 form select:focus {
+    border: 3px solid #AFCDD8;
+}
+
+.picture .box1 form button {
+    margin-bottom: 20px;
+}
+
+.picture .box1 p {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.picture .box1 em {
+    color: green;
+}

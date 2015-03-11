@@ -1,0 +1,160 @@
+
+.club-box {    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.club-box .platinum {
+    width: 960px;
+}
+
+/*fix navigation styles*/
+.club-box .navbar {
+    margin-bottom: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.club-box .navbar a {
+    font-weight: bolder;
+}
+
+.club-box .navbar li a {
+    font-weight: bolder;
+}
+
+.club-box .navbar-inverse {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.80);
+}
+
+.club-box .affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*remove if not working */
+
+.club-box .nav-pills li {
+  float: left;
+  width: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.club-box .nav-pills li a {
+  font-size: 14px;
+}
+
+.club-box .nav-pills li a:hover {
+    background-color: transparent;
+}
+
+.club-box .membership {
+    width: 100% !important;
+    height: 450px;
+    background: url('../images/lounge_test.png') center center no-repeat;
+    padding: 0px;
+    margin: 0px;
+}
+
+.club-box .membership .col-xs-8 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.club-box .membership .col-xs-8 h3 {
+    font-size: 30px;
+}
+
+.club-box .membership .col-xs-8 h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Personal Styling Section */
+.club-box .personal_sty {
+    font-size: 16px;
+}
+
+.club-box .personal_sty h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.club-box .personal_sty p {
+    font-size: 18px;
+    line-height: 1.50;
+}
+
+.style {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1040px !important;
+    height: 300px;
+    background: url('../images/v2_final_sty_image.png') center center no-repeat;
+    background-size: 100%;
+}
+
+/* shop section styles */
+.shop {
+    width: 1040px;
+    height: 475px;
+    background: url('../images/v2_final_shop_image.png') no-repeat;
+}
+
+.shop .col-xs-5 h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.shop .col-xs-5 p {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* invi section styles */
+.invi_color {
+    background-color: rgb(229,228,226,0.3);
+    background-color: rgba(229,228,226,0.3);
+}
+
+.invi h3 {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.invi h4 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.invi p {
+    font-size: 16px;
+}
+
+.invi img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.request {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
